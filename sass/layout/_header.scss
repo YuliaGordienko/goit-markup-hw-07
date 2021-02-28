@@ -76,8 +76,7 @@
 }
 
 .contacts-list {
-  display: flex;
-  align-items: baseline;
+  @include center;
 }
 
 .navigation-list-links,
